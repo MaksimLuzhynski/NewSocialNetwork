@@ -1,0 +1,12 @@
+.profile {
+    grid-area: p;
+    background-color: indianred;
+}
+
+.profile img{
+    width: 80%;
+}
+
+.item{
+    color: violet;
+}
