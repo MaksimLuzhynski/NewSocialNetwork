@@ -12,11 +12,11 @@ export const MyPosts = () => {
             <div className={classes.posts}>
                 <Post
                     message="Hi, everyone!"
-                    like="3"
+                    likesCount="3"
                 />
                 <Post
                     message="Hello, it's my fist post."
-                    like="41"
+                    likesCount="41"
                 />
                 <Post />
             </div>
