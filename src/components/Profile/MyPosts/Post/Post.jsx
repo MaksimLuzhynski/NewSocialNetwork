@@ -1,11 +1,11 @@
 import classes from './Post.module.css';
 
-export const Post = () => {
+export const Post = (props) => {
     return (
         <div className={classes.item}>
             <img src="https://www.meme-arsenal.com/memes/b877babd9c07f94b952c7f152c4e264e.jpg" />
-             post10000
-             <div>like</div>
+             {props.message}
+             <div>like {props.like}</div>
         </div>
     )
 }

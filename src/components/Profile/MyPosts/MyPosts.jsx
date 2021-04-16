@@ -9,12 +9,16 @@ export const MyPosts = () => {
                 <textarea></textarea>
                 <button>Add post</button>
             </div>
-            <div>
-                <div className={classes.posts}>
-                    <Post />
-                    <Post />
-                    <Post />
-                </div>
+            <div className={classes.posts}>
+                <Post
+                    message="Hi, everyone!"
+                    like="3"
+                />
+                <Post
+                    message="Hello, it's my fist post."
+                    like="41"
+                />
+                <Post />
             </div>
         </div>
 
