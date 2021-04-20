@@ -3,11 +3,13 @@ import { Post } from './Post/Post';
 
 export const MyPosts = () => {
     return (
-        <div>
-            My posts
+        <div className={classes.postsBlock}>
+            <h3>My posts</h3>
             <div>
                 <textarea></textarea>
-                <button>Add post</button>
+                <div>
+                    <button>Add post</button>
+                </div>
             </div>
             <div className={classes.posts}>
                 <Post
